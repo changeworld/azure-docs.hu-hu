@@ -116,6 +116,8 @@
         - name: AKS-fürt törlése
           href: '/cli/azure/aks#az-aks-delete'
           maintainContext: true
+        - name: ACR létrehozása AKS-fürttel (előzetes verzió)
+          href: cluster-container-registry-integration.md
         - name: Virtuális csomópontok létrehozása
           items:
             - name: Az Azure parancssori felületének használata

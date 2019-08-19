@@ -276,6 +276,22 @@
         - name: Állapotkonfiguráció (DSC) hibaelhárítása
           href: troubleshoot/desired-state-configuration.md
           displayName: 'Desired State Configuration, troubleshoot'
+    - name: Referencia
+      items:
+        - name: Közösségi megoldások
+          items:
+            - name: Konfigurációs adatok nagy mennyiségben
+              href: automation-dsc-config-data-at-scale.md
+              displayName: 'DSC, Configuration Data, ConfigData'
+            - name: Konfigurációk létrehozása kiszolgálókról
+              href: automation-dsc-config-from-server.md
+              displayName: 'DSC, ReverseDSC'
+            - name: STIG-alapú konfiguráció
+              href: automation-dsc-configuration-based-on-stig.md
+              displayName: 'DSC, Configuration'
+            - name: Konfigurációk átalakítása összetett erőforrásokká
+              href: automation-dsc-create-composite.md
+              displayName: 'DSC, composite'
 - name: Megosztott erőforrások kezelése
   items:
     - name: Tanúsítványok

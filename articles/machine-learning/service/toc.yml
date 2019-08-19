@@ -213,29 +213,29 @@
         - name: Az üzembe helyezés módja és helye
           displayName: 'publish, web, service, operationalize, aks, kubernetes, aci, container, cli, consume, docker'
           href: how-to-deploy-and-where.md
-        - name: Notebook virtuális gépek
-          href: how-to-deploy-local-container-notebook-vm.md
-        - name: Azure Container Instances
-          displayName: aci
-          href: how-to-deploy-azure-container-instance.md
-        - name: Azure Kubernetes Service
+        - name: Üzembe helyezés az Azure Kubernetes Service-ben
           displayName: 'aks, aad, authentication, azure active directory'
           href: how-to-deploy-azure-kubernetes-service.md
-        - name: GPU-következtetés
+        - name: Üzembe helyezés GPU-következtetéshez
           href: how-to-deploy-inferencing-gpus.md
-        - name: FPGA-következtetés
-          href: how-to-deploy-fpga-web-service.md
-        - name: IoT Edge
-          href: /azure/iot-edge/tutorial-deploy-machine-learning?context=azure/machine-learning/service/context/ml-context
-        - name: Azure App Service
+        - name: Üzembe helyezés az Azure App Service-ben
           displayName: web app
           href: how-to-deploy-app-service.md
-        - name: Egyéni Docker-rendszerkép
+        - name: Üzembe helyezés az Azure Container Instances szolgáltatásban
+          displayName: aci
+          href: how-to-deploy-azure-container-instance.md
+        - name: Üzembe helyezés Notebook virtuális gépeken
+          href: how-to-deploy-local-container-notebook-vm.md
+        - name: Egyéni Docker-rendszerkép használata
           href: how-to-deploy-custom-docker-image.md
         - name: Meglévő modellek üzembe helyezése
           displayName: publish existing model
           href: how-to-deploy-existing-model.md
-        - name: Hibakeresés és hibaelhárítás
+        - name: Üzembe helyezés az IoT Edge-eszközön
+          href: /azure/iot-edge/tutorial-deploy-machine-learning?context=azure/machine-learning/service/context/ml-context
+        - name: Üzembe helyezés FPGA-következtetéshez
+          href: how-to-deploy-fpga-web-service.md
+        - name: Üzemelő példányok hibakeresése és hibaelhárítása
           href: how-to-troubleshoot-deployment.md
     - name: Webszolgáltatások felhasználása
       items:

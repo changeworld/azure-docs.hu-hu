@@ -218,7 +218,7 @@
                       href: app/nodejs.md
                 - name: Weblapok
                   items:
-                    - name: ügyféloldali JavaScript
+                    - name: Ügyféloldali JavaScript
                       href: app/javascript.md
                 - name: Application Insights API összefoglalója
                   displayname: 'SDK, API, custom events, custom metrics, trackevent,trackmetric, getmetric, trackrequest, trackexception, tracktrace, trackdependency'
@@ -509,6 +509,10 @@
                   href: insights/container-insights-troubleshoot.md
             - name: Docker- és Windows-tárolók monitorozása
               href: insights/containers.md
+        - name: Storage
+          items:
+            - name: Azure Monitor a Storage-hoz
+              href: insights/storage-insights-overview.md
         - name: Virtual machines (Virtuális gépek)
           items:
             - name: Ügynökök
@@ -1046,6 +1050,8 @@
               href: app/data-model-context.md
     - name: Azure CLI
       href: /cli/azure/monitor?view=azure-cli-latest
+    - name: Azure CLI – Application Insights (előzetes verzió)
+      href: 'https://docs.microsoft.com/cli/azure/ext/application-insights/monitor?view=azure-cli-latest'
     - name: Azure Functions
       href: app/azure-functions-supported-features.md
     - name: Azure PowerShell

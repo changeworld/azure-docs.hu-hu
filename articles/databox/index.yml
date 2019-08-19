@@ -1,46 +1,127 @@
-### YamlMime:YamlDocument
-documentType: LandingData
-title: Azure Data Box-dokumentáció – Online adatátvitel
+### YamlMime:Landing
+title: Azure Data Box-dokumentáció – Offline adatátvitel
+summary: 'Ha az időbeli, hálózati vagy költségvetési lehetőségei korlátozottak, az Azure Data Box-eszközöket offline adatátvitelhez is használhatja. Az adatok méretétől függően a következő lehetőségek közül választhat: Data Box Disk, Data Box vagy Data Box Heavy.'
 metadata:
   title: Azure Data Box-dokumentáció – Online adatátvitel
-  description: 'Ha az időbeli, hálózati vagy költségvetési lehetőségei korlátozottak, a Data Box-eszközöket az Azure-ba irányuló offline adatátvitelhez is használhatja.'
+  description: Ha az időbeli, hálózati vagy költségvetési lehetőségei korlátozottak, a Data Box-eszközöket az Azure-ba irányuló offline adatátvitelhez is használhatja.
   services: databox
-  author: alkohli
-  manager: twooley
   ms.service: databox
   ms.subservice: pod
   ms.topic: landing-page
-  ms.date: 07/03/2019
+  ms.collection: collection
+  author: alkohli
   ms.author: alkohli
-abstract:
-  description: 'Az Azure Data Box termékcsaláddal gyorsan, olcsón és megbízható módon vihet át több száz terabájtnyi adatot az Azure-ba. Ha az időbeli, hálózati vagy költségvetési lehetőségei korlátozottak, a Data Box-eszközöket offline adatátvitelhez is használhatja.<p>Az adatok méretétől függően a következő lehetőségek közül választhat: Data Box Disk, Data Box vagy Data Box Heavy. Minden eszközről 4 egyszerű lépésben vihet át adatokat az Azure-ba – rendelje meg és vegye át az eszközt, másolja rá az adatokat, majd küldje vissza az Azure-nak. Az Azure-adatközpontban feltöltik, majd törlik az adatokat.</p><p>Rövid útmutatóink és oktatóanyagaink segítségével megtudhatja, hogyan használhatja a Data Boxot offline adatátvitelre.</p>'
-sections:
-  - title: Első lépések
-    items:
-      - type: list
-        style: icon48
-        items:
-          - image:
-              src: 'https://docs.microsoft.com/media/common/i_quick-start.svg'
-            text: A Data Box beállítása az Azure Portalon
-            href: /azure/databox/data-box-quickstart-portal
-          - image:
-              src: 'https://docs.microsoft.com/media/common/i_quick-start.svg'
-            text: A Data Box Disk beállítása az Azure Portalon
-            href: /azure/databox/data-box-disk-quickstart-portal
-          - image:
-              src: 'https://docs.microsoft.com/media/common/i_quick-start.svg'
-            text: A Data Box Heavy beállítása az Azure Portalon
-            href: /azure/databox/data-box-heavy-quickstart-portal
-  - title: Oktatóanyagok
-    items:
-      - type: list
-        style: cards
-        className: cardsD
-        items:
-          - title: A Data Boxhoz
-            html: <p><a href="/azure/databox/data-box-deploy-ordered">Az Azure Data Box megrendelése</a></p><p><a href="/azure/databox/data-box-deploy-set-up">Az Azure Data Box csatlakoztatása</a></p><p><a href="/azure/databox/data-box-deploy-copy-data">Adatok másolása az Azure Data Boxra</a></p><p><a href="/azure/databox/data-box-deploy-picked-up">Az Azure Data Box visszaküldése és a feltöltés ellenőrzése</a></p>
-          - title: A Data Box Diskhez
-            html: '<p><a href="/azure/databox/data-box-disk-deploy-ordered">Az Azure Data Box Disk megrendelése</a></p><p><a href="/azure/databox/data-box-disk-deploy-set-up">Az Azure Data Box Disk kicsomagolása, csatlakoztatása és a zárolás feloldása</a></p><p><a href="/azure/databox/data-box-disk-deploy-copy-data">Adatok másolása az Azure Data Box Diskre</a></p><p><a href="/azure/databox/data-box-disk-deploy-picked-up">Az Azure Data Box Disk visszaküldése és a feltöltés ellenőrzése</a></p>'
-          - title: A Data Box Heavyhez
-            html: <p><a href="/azure/databox/data-box-heavy-deploy-ordered">Az Azure Data Box Heavy megrendelése</a></p><p><a href="/azure/databox/data-box-heavy-deploy-set-up">Az Azure Data Box Heavy csatlakoztatása</a></p><p><a href="/azure/databox/data-box-heavy-deploy-copy-data">Adatok másolása az Azure Data Box Heavyre</a></p><p><a href="/azure/databox/data-box-heavy-deploy-picked-up">Az Azure Data Box Heavy visszaküldése és a feltöltés ellenőrzése</a></p>
+  ms.date: 08/14/2019
+  ms.openlocfilehash: 03de9ceffe4495b1c3a39dad6617cc72d022fbbd
+  ms.sourcegitcommit: a6888fba33fc20cc6a850e436f8f1d300d03771f
+  ms.translationtype: HT
+  ms.contentlocale: hu-HU
+  ms.lasthandoff: 08/16/2019
+  ms.locfileid: "69557833"
+landingContent:
+- title: A Data Box-termékcsalád ismertetése
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Mi a Data Box?
+      url: data-box-overview.md
+    - text: Mi a Data Box Disk?
+      url: data-box-disk-overview.md
+    - text: Mi az a Data Box Heavy?
+      url: data-box-heavy-overview.md
+  - linkListType: architecture
+    links:
+    - text: Azure adatátviteli lehetőségek kiválasztása
+      url: /azure/storage/common/storage-choose-data-transfer-solution
+- title: Bevezetés
+  linkLists:
+  - linkListType: quickstart
+    links:
+    - text: A Data Box beállítása
+      url: data-box-quickstart-portal.md
+    - text: A Data Box Disk beállítása
+      url: data-box-disk-quickstart-portal.md
+    - text: A Data Box Heavy beállítása
+      url: data-box-heavy-quickstart-portal.md
+  - linkListType: learn
+    links:
+    - text: Adatok importálása offline a Data Box segítségével
+      url: https://docs.microsoft.com/learn/modules/move-data-with-azure-data-box/
+- title: Követelmények megtekintése
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: A Data Boxhoz
+      url: data-box-system-requirements.md
+    - text: A Data Box Blob Storage-hoz
+      url: data-box-system-requirements-rest.md
+    - text: A Data Box Diskhez
+      url: data-box-disk-system-requirements.md
+    - text: A Data Box Heavyhez
+      url: data-box-heavy-system-requirements.md
+- title: A Data Box üzembe helyezése
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: Rendelés
+      url: data-box-deploy-ordered.md
+    - text: Kábel
+      url: data-box-deploy-set-up.md
+    - text: Csatlakozás és adatok másolása SMB-n keresztül
+      url: data-box-deploy-copy-data.md
+    - text: Azure-adatok visszaküldése, feltöltése és ellenőrzése
+      url: data-box-deploy-picked-up.md
+- title: A Data Box Disk üzembe helyezése
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: Rendelés
+      url: data-box-disk-deploy-ordered.md
+    - text: Zárolás feloldása és csatlakozás
+      url: data-box-disk-deploy-set-up.md
+    - text: Adatok másolása, ellenőrzése
+      url: data-box-disk-deploy-copy-data.md
+    - text: Azure-adatok visszaküldése, feltöltése és ellenőrzése
+      url: data-box-disk-deploy-picked-up.md
+- title: A Data Box Heavy üzembe helyezése
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: Rendelés
+      url: data-box-heavy-deploy-ordered.md
+    - text: Kábel
+      url: data-box-heavy-deploy-set-up.md
+    - text: Csatlakozás és adatok másolása SMB-n keresztül
+      url: data-box-heavy-deploy-copy-data.md
+    - text: Azure-adatok visszaküldése, feltöltése és ellenőrzése
+      url: data-box-heavy-deploy-picked-up.md
+- title: Eszköz felügyelete
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Data Box, Data Box Heavy az Azure-ban
+      url: data-box-portal-admin.md
+    - text: Data Box, Data Box Heavy a helyi felhasználói felületen keresztül
+      url: data-box-local-web-ui-admin.md
+    - text: Data Box Disk az Azure-ban
+      url: data-box-portal-ui-admin.md
+- title: Gyakori kérdések
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: GYIK – Data Box
+      url: data-box-faq.md
+    - text: GYIK – Data Box Disk
+      url: data-box-disk-faq.md
+- title: Hibaelhárítás
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Data Box, Data Box Heavy
+      url: data-box-troubleshoot.md
+    - text: Data Box Blob Storage
+      url: data-box-troubleshoot-rest.md
+    - text: Data Box Disk
+      url: data-box-disk-troubleshoot.md
+    - text: Támogatási jegy megnyitása
+      url: data-box-disk-contact-microsoft-support.md

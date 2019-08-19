@@ -67,6 +67,8 @@
       href: overview-hosting-plans.md
     - name: OS-funkciók
       href: operating-system-functionality.md
+    - name: Ajánlott üzembe helyezési eljárások
+      href: deploy-best-practices.md
     - name: Biztonság
       items:
         - name: Javaslatok
@@ -217,6 +219,8 @@
       href: /azure/templates/microsoft.web/allversions
 - name: További források
   items:
+    - name: App Service blog
+      href: 'https://aka.ms/appserviceblog'
     - name: Fejlessze a készségeit a Microsoft Learnnel
       href: /learn/browse/
     - name: Azure-ütemterv

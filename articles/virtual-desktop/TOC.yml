@@ -32,6 +32,8 @@
       href: create-host-pools-arm-template.md
     - name: Gazdagépcsoport létrehozása a PowerShell-lel
       href: create-host-pools-powershell.md
+    - name: Windows-licenc alkalmazása Windows Virtual Desktop munkamenetgazdákra
+      href: apply-windows-license.md
     - name: Felhasználói profil megosztásának beállítása a gazdagépcsoporton
       href: create-host-pools-user-profile.md
     - name: A Windows Virtual Desktop terheléselosztási módjának beállítása
@@ -48,6 +50,8 @@
       href: customize-feed-for-virtual-desktop-users.md
     - name: RDP-tulajdonságok testreszabása
       href: customize-rdp-properties.md
+    - name: A diagnosztikai eszköz üzembe helyezése
+      href: deploy-diagnostics.md
 - name: Alapelvek
   items:
     - name: A Windows Virtual Desktop környezete

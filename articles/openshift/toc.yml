@@ -27,6 +27,8 @@
           href: howto-aad-app-configuration.md
     - name: Különálló Prometheus üzembe helyezése Azure Red Hat OpenShift-fürtön
       href: howto-deploy-prometheus.md
+    - name: Projektek kezelése egy Azure Red Hat OpenShift-fürtben
+      href: howto-manage-projects.md
 - name: Referencia
   items:
     - name: Az Azure Red Hat OpenShift parancssori felülete

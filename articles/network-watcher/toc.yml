@@ -101,6 +101,8 @@
               href: network-watcher-nsg-flow-logging-cli.md
             - name: REST
               href: network-watcher-nsg-flow-logging-rest.md
+        - name: NSG-folyamatnapló tárolóblobjainak törlése
+          href: network-watcher-delete-nsg-flow-log-blobs.md
         - name: NSG-forgalom naplóinak elemzése
           items:
             - name: NSG-forgalom naplóinak olvasása

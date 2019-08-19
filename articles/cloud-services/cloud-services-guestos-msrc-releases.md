@@ -7,18 +7,17 @@ author: raiye
 editor: ''
 ms.assetid: d0a272a9-ed01-4f4c-a0b3-bd5e841bdd77
 ms.service: cloud-services
-ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: tbd
 ms.date: 8/2/2019
 ms.author: raiye
-ms.openlocfilehash: 534a77ad29338ca1cdba22a3adeb8113521a6246
-ms.sourcegitcommit: 6cbf5cc35840a30a6b918cb3630af68f5a2beead
+ms.openlocfilehash: 6f7fc27674ad26d8de8dd5d0c6c801b269b0e686
+ms.sourcegitcommit: 124c3112b94c951535e0be20a751150b79289594
 ms.translationtype: MT
 ms.contentlocale: hu-HU
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "68780091"
+ms.lasthandoff: 08/10/2019
+ms.locfileid: "68941710"
 ---
 # <a name="azure-guest-os"></a>Azure Guest OS
 Az alábbi táblázatok az Azure vendég operációs rendszerre alkalmazott Microsoft Security Response Center (MSRC) frissítéseiket mutatják be. A cikkben megkeresve megállapíthatja, hogy egy adott frissítés a használt vendég operációs rendszerre vonatkozik-e. A frissítések mindig továbbítva lesznek az adott [család][family-explain] számára, melyeket a alkalmazásban bevezettek.
@@ -40,11 +39,11 @@ Az alábbi táblázatok az Azure vendég operációs rendszerre alkalmazott Micr
 |  Rel 19-07   |  [4507460]  |  Windows-Biztonság   |  5.33  |  2019. július 9.  |
 |  Rel 19-07   |  [4506998]  |  .NET 3,5 & 4.7.2 biztonság   |  6.9  |  2019. július 9.  |
 |  Rel 19-07   |  [4507469]  |  Windows-Biztonság   |  6.9  |  2019. július 9.  |
-|  –  |  [4503537]  |  Június 19 karbantartási verem frissítése (2016-es kiszolgáló)   |  5.33  |  Május 14., 2019  |
-|  –  |  [4504369]  |  Június 19 karbantartási verem frissítése (2019-es kiszolgáló)   |  6.9  |  Május 14., 2019  |
+|  –  |  [4503537]  |  Június 19 karbantartási verem frissítése (2016-es kiszolgáló)   |  5.33  |  2019. május 14.  |
+|  –  |  [4504369]  |  Június 19 karbantartási verem frissítése (2019-es kiszolgáló)   |  6.9  |  2019. május 14.  |
 |  –  |  [4503292]  |  Június 19 nem biztonsági (kiszolgáló 2008 R2)   |  2,88  |  2019. május 20.  |
-|  –  |  [4503285]  |  Június 19 nem biztonsági (kiszolgáló 2012)   |  3.75  |  Május 14., 2019  |
-|  –  |  [4503276]  |  Június 19 nem biztonsági (kiszolgáló 2012 R2)   |  4,68  |  Május 14., 2019  |
+|  –  |  [4503285]  |  Június 19 nem biztonsági (kiszolgáló 2012)   |  3.75  |  2019. május 14.  |
+|  –  |  [4503276]  |  Június 19 nem biztonsági (kiszolgáló 2012 R2)   |  4,68  |  2019. május 14.  |
 
 [4507434]: https://support.microsoft.com/kb/4507434
 [4506621]: https://support.microsoft.com/kb/4506621
@@ -80,17 +79,17 @@ Az alábbi táblázatok az Azure vendég operációs rendszerre alkalmazott Micr
 |  Rel 19-06   |  [4494175]  |  Programkód frissítése   |  5,32  |  2019. június 3.  |
 |  Rel 19-06   |  [4503308]  |  Flash   |  3,74, 4,67, 5,32, 6,8  |  Június 11.2019  |
 |  Rel 19-06   |  [4503259]  |  Internet Explorer   |  2,87, 3,74, 4,67  |  Június 13., 2019  |
-|  –  |  [4499164]  |  Május 19 nem biztonsági  |  2,87  |  Május 14., 2019  |
-|  –  |  [4495606]  |  Május 19 .NET 3,5 nem biztonsági  |  2,87  |  Május 14., 2019  |
+|  –  |  [4499164]  |  Május 19 nem biztonsági  |  2,87  |  2019. május 14.  |
+|  –  |  [4495606]  |  Május 19 .NET 3,5 nem biztonsági  |  2,87  |  2019. május 14.  |
 |  –  |  [4495596]  |  Május 19 .NET 4,5 nem biztonsági  |  2,87  |  2019. május 20.  |
-|  –  |  [4499171]  |  Május 19 nem biztonsági  |  3,74  |  Május 14., 2019  |
-|  –  |  [4495602]  |  Május 19 .NET 3,5 nem biztonsági  |  3,74  |  Május 14., 2019  |
-|  –  |  [4495594]  |  Május 19 .NET 4. x nem biztonsági  |  4,67  |  Május 14., 2019  |
-|  –  |  [4499151]  |  Május 19 nem biztonsági  |  4,67  |  Május 14., 2019  |
-|  –  |  [4495608]  |  Május 19 .NET 3,5 nem biztonsági  |  4,67  |  Május 14., 2019  |
-|  –  |  [4495592]  |  Május 19 .NET 4.5.2 nem biztonsági  |  4,67  |  Május 14., 2019  |
-|  –  |  [4495610]  |  Május 19 .NET 4,8 kumulatív  |  6.8  |  Május 14., 2019  |
-|  –  |  [4495618]  |  Május 19 .NET 4,8 kumulatív  |  6.8  |  Május 14., 2019  |
+|  –  |  [4499171]  |  Május 19 nem biztonsági  |  3,74  |  2019. május 14.  |
+|  –  |  [4495602]  |  Május 19 .NET 3,5 nem biztonsági  |  3,74  |  2019. május 14.  |
+|  –  |  [4495594]  |  Május 19 .NET 4. x nem biztonsági  |  4,67  |  2019. május 14.  |
+|  –  |  [4499151]  |  Május 19 nem biztonsági  |  4,67  |  2019. május 14.  |
+|  –  |  [4495608]  |  Május 19 .NET 3,5 nem biztonsági  |  4,67  |  2019. május 14.  |
+|  –  |  [4495592]  |  Május 19 .NET 4.5.2 nem biztonsági  |  4,67  |  2019. május 14.  |
+|  –  |  [4495610]  |  Május 19 .NET 4,8 kumulatív  |  6.8  |  2019. május 14.  |
+|  –  |  [4495618]  |  Május 19 .NET 4,8 kumulatív  |  6.8  |  2019. május 14.  |
 |  –  |  [4501226]  |  A Marokkó és a palesztin hatóság DST-időzónájának frissítései  |  2,87, 3,74, 4,67  |  2019. május 23.  |
 |  –  |  [4490128]  |  DST-időzóna frissítései São Tomé és Príncipe, valamint a Qyzylordai  |  2,87, 3,74, 4,67  |  Április 17., 2019  |
 
@@ -121,26 +120,26 @@ Az alábbi táblázatok az Azure vendég operációs rendszerre alkalmazott Micr
 
 | Termék kategóriája | Szülő TUDÁSBÁZIS cikke | Biztonsági rés leírása | Vendég operációs rendszer | Első bemutatás dátuma |
 | --- | --- | --- | --- | --- |
-|  Rel 19-05   |  [4498206]  |  IE – kumulatív összesítés   |  2,86, 3,73, 4,66  |  Május 14., 2019  |
+|  Rel 19-05   |  [4498206]  |  IE – kumulatív összesítés   |  2,86, 3,73, 4,66  |  2019. május 14.  |
 |  Rel 19-05   |  [4505050]  |  IE – kumulatív összesítés   |  2,86, 3,73, 4,66  |  2019. május 18.  |
-|  Rel 19-05   |  [4497932]  |  Flash-frissítés lehet   |  3,73, 4,66, 5,31  |  Május 14., 2019  |
-|  Rel 19-05   |  [4499175]  |  Biztonsági összesítés lehetséges   |  2,86  |  Május 14., 2019  |
-|  Rel 19-05   |  [4495612]  |  A .NET 3,5-es biztonsági összesítése lehetséges   |  2,86  |  Május 14., 2019  |
-|  Rel 19-05   |  [4495593]  |  Előfordulhat, hogy a biztonsági összesítés .NET 4.5.2   |  2,86  |  Május 14., 2019  |
-|  Rel 19-05   |  [4499158]  |  Biztonsági összesítés lehetséges   |  3.73  |  Május 14., 2019  |
-|  Rel 19-05   |  [4495607]  |  A .NET 3,5-es biztonsági összesítése lehetséges   |  3.73  |  Május 14., 2019  |
-|  Rel 19-05   |  [4495591]  |  Előfordulhat, hogy a biztonsági összesítés .NET 4.5.2   |  3.73  |  Május 14., 2019  |
+|  Rel 19-05   |  [4497932]  |  Flash-frissítés lehet   |  3,73, 4,66, 5,31  |  2019. május 14.  |
+|  Rel 19-05   |  [4499175]  |  Biztonsági összesítés lehetséges   |  2,86  |  2019. május 14.  |
+|  Rel 19-05   |  [4495612]  |  A .NET 3,5-es biztonsági összesítése lehetséges   |  2,86  |  2019. május 14.  |
+|  Rel 19-05   |  [4495593]  |  Előfordulhat, hogy a biztonsági összesítés .NET 4.5.2   |  2,86  |  2019. május 14.  |
+|  Rel 19-05   |  [4499158]  |  Biztonsági összesítés lehetséges   |  3.73  |  2019. május 14.  |
+|  Rel 19-05   |  [4495607]  |  A .NET 3,5-es biztonsági összesítése lehetséges   |  3.73  |  2019. május 14.  |
+|  Rel 19-05   |  [4495591]  |  Előfordulhat, hogy a biztonsági összesítés .NET 4.5.2   |  3.73  |  2019. május 14.  |
 |  Rel 19-05   |  [4492872]  |  IE-összesítés   |  3.73  |  Április 16., 2019  |
-|  Rel 19-05   |  [4499165]  |  Márciusi biztonsági összesítés   |  4,66  |  Május 14., 2019  |
-|  Rel 19-05   |  [4495615]  |  A .NET 3,5-es biztonsági összesítése lehetséges   |  4,66  |  Május 14., 2019  |
-|  Rel 19-05   |  [4495589]  |  Előfordulhat, hogy a biztonsági összesítés .NET 4.5.2   |  4,66  |  Május 14., 2019  |
-|  Rel 19-05   |  [4498947]  |  Május SSU   |  5,31  |  Május 14., 2019  |
-|  Rel 19-05   |  [4494175]  |  A programkód frissítése lehetséges   |  5,31  |  Május 14., 2019  |
+|  Rel 19-05   |  [4499165]  |  Márciusi biztonsági összesítés   |  4,66  |  2019. május 14.  |
+|  Rel 19-05   |  [4495615]  |  A .NET 3,5-es biztonsági összesítése lehetséges   |  4,66  |  2019. május 14.  |
+|  Rel 19-05   |  [4495589]  |  Előfordulhat, hogy a biztonsági összesítés .NET 4.5.2   |  4,66  |  2019. május 14.  |
+|  Rel 19-05   |  [4498947]  |  Május SSU   |  5,31  |  2019. május 14.  |
+|  Rel 19-05   |  [4494175]  |  A programkód frissítése lehetséges   |  5,31  |  2019. május 14.  |
 |  Rel 19-05   |  [4505052]  |  Biztonsági összesítés lehetséges   |  5,31  |  Május 19., 2019  |
 |  Rel 19-05   |  [4499728]  |  Május SSU   |  6.7  |  Május 19., 2019  |
 |  Rel 19-05   |  [4505056]  |  Biztonsági összesítés lehetséges   |  6.7  |  Május 19., 2019  |
-|  Rel 19-05   |  [4494174]  |  A programkód frissítése lehetséges   |  6.7  |  Május 14., 2019  |
-|  Rel 19-05   |  [4495590]  |  A Security kumulatív .NET   |  6.7  |  Május 14., 2019  |
+|  Rel 19-05   |  [4494174]  |  A programkód frissítése lehetséges   |  6.7  |  2019. május 14.  |
+|  Rel 19-05   |  [4495590]  |  A Security kumulatív .NET   |  6.7  |  2019. május 14.  |
 
 [4498206]: https://support.microsoft.com/kb/4498206
 [4505050]: https://support.microsoft.com/kb/4505050

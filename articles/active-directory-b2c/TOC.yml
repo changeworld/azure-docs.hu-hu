@@ -62,9 +62,6 @@
           href: active-directory-b2c-reference-tokens.md
         - name: Hozzáférési jogkivonat kérése
           href: active-directory-b2c-access-tokens.md
-        - name: Több jogkivonat-kiállító támogatása
-          href: multiple-token-endpoints.md
-          displayName: 'migrate, b2clogin, owin, jwt'
     - name: Felhasználói folyamat és szabályzat
       items:
         - name: Felhasználói folyamatok
@@ -307,7 +304,12 @@
             - name: RelyingParty
               href: relyingparty.md
     - name: A b2clogin.com használata
-      href: b2clogin.md
+      items:
+        - name: b2clogin.com – áttekintés
+          href: b2clogin.md
+        - name: Webes API migrálása a b2clogin.com-ra
+          href: multiple-token-endpoints.md
+          displayName: 'migrate, b2clogin, owin, jwt'
     - name: Automation
       items:
         - name: Használati jelentés exportálása

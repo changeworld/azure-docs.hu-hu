@@ -25,7 +25,7 @@
       href: concept-authentication-methods.md
     - name: Jelszó nélküli hitelesítés
       href: concept-authentication-passwordless.md
-    - name: Kombinált regisztráció
+    - name: Biztonsági tudnivalók regisztrálása
       href: concept-registration-mfa-sspr-combined.md
     - name: Új jelszó létrehozása
       items:
@@ -103,7 +103,7 @@
               href: howto-mfa-nps-extension-rdg.md
             - name: VPN
               href: howto-mfa-nps-extension-vpn.md
-    - name: Kombinált regisztráció
+    - name: Biztonsági tudnivalók regisztrálása
       items:
         - name: A kombinált regisztráció engedélyezése
           href: howto-registration-mfa-sspr-combined.md
